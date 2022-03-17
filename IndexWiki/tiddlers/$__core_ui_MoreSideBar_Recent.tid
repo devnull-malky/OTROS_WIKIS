@@ -1,0 +1,7 @@
+caption: {{$:/language/SideBar/Recent/Caption}}
+created: 20220317231600996
+modified: 20220317231600996
+tags: $:/tags/MoreSideBar
+title: $:/core/ui/MoreSideBar/Recent
+
+<$macrocall $name="timeline" format={{$:/language/RecentChanges/DateFormat}}/>
