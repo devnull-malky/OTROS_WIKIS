@@ -1,0 +1,9 @@
+author: OokTech
+core-version: >=5.1.13
+dependents: 
+description: A searchable bookmarks library for tiddlywiki
+plugin-type: plugin
+source: https://github.com/OokTech/TW5-Bookmarks
+title: $:/plugins/OokTech/Bookmarks
+type: application/json
+version: 0.0.11
