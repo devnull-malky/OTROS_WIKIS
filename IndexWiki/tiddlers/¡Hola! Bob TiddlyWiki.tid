@@ -1,0 +1,32 @@
+created: 20220317200929468
+modified: 20220317202759972
+tags: $:/OTROS_WIKIS
+title: ¡Hola! Bob TiddlyWiki
+
+!Bienvenido a Bob TiddlyWiki .
+
+!! Conexión de otras computadoras a la wiki
+
+''GRAN NOTA DE DOOM o ¿Qué es la red local?:'' La red local es cualquiera que use el mismo router que tú. Esto significa cualquier persona en la misma red wifi o usando una conexión por cable en el mismo enrutador. Entonces, cuando estás en Starbucks o en una biblioteca en el wifi, cualquier otra persona que esté en ese wifi está en la red local.
+
+De manera predeterminada, la wiki solo está disponible en `localhost` la computadora en la que está ejecutando el proceso de nodo.
+
+Si desea que esté disponible para otras computadoras en la red local, debe cambiar la configuración en $:/ControlPanel  debajo de la  `Bob Settings`
+pestaña.
+
+Hay algunas pestañas disponibles en `Bob Settings`:
+
+* La `Manage Wikis` pestaña le permite crear nuevos wikis y administrar los wikis existentes.
+* La `This Wiki` pestaña le permite cambiar los complementos y temas que están disponibles y activos en el wiki actual.
+* La `Server` pestaña le permite hacer cosas que afectan al servidor wiki, como hacer que los wikis estén disponibles en la red local y configurar un servidor de archivos estático para acceder a los archivos multimedia locales.
+* La `Federation` pestaña tiene algunas cosas muy experimentales, probablemente no funcionarán bien.
+* La `Bob Documentation` pestaña tiene más documentación sobre Bob.
+* La `About OokTech/Support Documentation` pestaña tiene información sobre OokTech y cómo apoyar el desarrollo futuro de Bob y los complementos relacionados.
+
+Más documentación de Bob [[$:/plugins/OokTech/Bob/readme]]
+
+Cosas que puede querer hacer:
+
+* Habilitar el [[servidor de archivos multimedia|$:/plugins/OokTech/Bob/FileServerSetup]]
+* Habilite el [[complemento ServerImages|$:/plugins/OokTech/Bob/SelectPlugins]] (requiere que el servidor de medios esté habilitado)
+* Hacer que los wikis servidos [[estén disponibles en la red local|$:/plugins/OokTech/Bob/ServerTab]]

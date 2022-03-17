@@ -1,0 +1,10 @@
+created: 20220317200627466
+modified: 20220317203557469
+title: OTROS_WIKIS
+
+[list[$:/OTROS_WIKIS]]
+
+
+<div class="tc-control-panel">
+<$macrocall $name="tabs" tabsList="[all[shadows+tiddlers]tag[$:/OTROS_WIKIS]!has[draft.of]]" default="$:/core/ui/ControlPanel/Info" explicitState="$:/state/tab-1749438307"/>
+</div>
