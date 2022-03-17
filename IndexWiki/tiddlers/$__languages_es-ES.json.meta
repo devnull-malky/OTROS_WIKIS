@@ -1,0 +1,9 @@
+author: Pau DeLuca
+core-version: >=5.0.0
+dependents: 
+description: Castellano. (Spain)
+name: es-ES
+plugin-type: language
+title: $:/languages/es-ES
+type: application/json
+version: 5.1.23
