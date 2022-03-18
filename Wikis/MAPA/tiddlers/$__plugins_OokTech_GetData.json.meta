@@ -1,0 +1,9 @@
+author: OokTech
+core-version: >=5.1.6
+dependents: 
+description: A simple action widget that lets you request data using an XMLhttprequest
+plugin-type: plugin
+source: https://github.com/OokTech/TW5-GetData
+title: $:/plugins/OokTech/GetData
+type: application/json
+version: 0.0.2

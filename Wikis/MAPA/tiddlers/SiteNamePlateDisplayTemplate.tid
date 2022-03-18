@@ -1,0 +1,35 @@
+tags: Templates
+title: SiteNamePlateDisplayTemplate
+tmap.id: 70d2a5db-8019-4259-9af1-5434b1047dd9
+
+<tr>
+    <td>
+        <a
+            href={{!!url}}
+            target='_blank'
+        >
+            <$view
+                field='caption'
+            >
+                <$view
+                    field='title'
+                />
+            </$view>
+        </a>
+    </td>
+    <td>
+        <$view
+            field='revision'
+        />
+    </td>
+    <td>
+        <$view
+            field='date'
+        />
+    </td>
+    <td>
+        <$view
+            field='description'
+        />
+    </td>
+</tr>

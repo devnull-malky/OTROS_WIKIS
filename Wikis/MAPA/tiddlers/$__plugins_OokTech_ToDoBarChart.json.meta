@@ -1,0 +1,10 @@
+author: inmysocks
+core-version: >=5.1.13
+dependents: 
+description: A plugin to add hidden message to images
+list: $:/plugins/OokTech/TiddlySteganography/ReadMe
+plugin-type: plugin
+source: 
+title: $:/plugins/OokTech/ToDoBarChart
+type: application/json
+version: 0.0.1

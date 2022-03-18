@@ -1,0 +1,10 @@
+author: OokTech
+core-version: >=5.1.13
+dependents: 
+description: A plugin to add simple bar charts to tiddlywiki
+list: $:/plugins/OokTech/BarChart/ReadMe
+plugin-type: plugin
+source: 
+title: $:/plugins/OokTech/BarChart
+type: application/json
+version: 0.0.212

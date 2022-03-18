@@ -1,0 +1,9 @@
+author: OokTech
+core-version: >=5.1.8
+dependents: 
+description: A task list split by categories
+plugin-type: plugin
+source: https://github.com/OokTech/TW5-CategoryLists
+title: $:/plugins/OokTech/CategoryLists
+type: application/json
+version: 0.1.6
