@@ -1,0 +1,6 @@
+created: 20160512013651469
+filter: -[prefix[_]] -[[tw-body:link]] -[[tw-list:tags]] -[[tw-list:list]]
+modified: 20191119061511060
+revision: 0
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Todos los Tiddlers/filter/edges
+type: text/vnd.tiddlywiki

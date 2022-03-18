@@ -1,0 +1,15 @@
+caption: Tiddly Viewer
+created: 20191119054451453
+height: 85vh
+modified: 20191119054451453
+revision: 0
+tags: $:/tags/Stylesheet
+title: $:/plugins/ajh/tiddlyviewer/stylesheet
+type: text/vnd.tiddlywiki
+width: 100%
+
+/* EXPAND */
+.tc-tiddly-viewer {
+ width: {{!!width}};
+ height: {{!!height}};
+}

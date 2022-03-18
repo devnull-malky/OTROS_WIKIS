@@ -15,7 +15,7 @@
   "suppressBrowser": false,
   "enableFederation": "no",
   "enableFileServer": "yes",
-  "filePathRoot": "./files",
+  "filePathRoot": "cwd",
   "perWikiFiles": "no",
   "enableBobSaver": "yes",
   "persistentUsernames": "no",
@@ -34,6 +34,12 @@
     },
     "ETIQUETAS": {
       "__path": "ETIQUETAS"
+    },
+    "tiddlyROAM": {
+      "__path": "tiddlyROAM"
+    },
+    "tiddlyspotmaps": {
+      "__path": "tiddlyspotmaps"
     }
   },
   "ws-server": {

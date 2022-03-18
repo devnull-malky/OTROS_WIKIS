@@ -1,0 +1,16 @@
+author: Felix Küppers
+core-version: >=5.1.5
+created: 20160512012924344
+dependents: $:/plugins/felixhayashi/vis
+depends: $:/plugins/felixhayashi/vis
+description: TiddlyMap – Map drawing and topic visualization for your wiki
+list: readme license
+modified: 20191119061511133
+plugin-type: plugin
+released: Sun, 07 Feb 2016 01:08:58 GMT
+revision: 0
+source: https://github.com/felixhayashi/TW5-TiddlyMap
+suggested: $:/plugins/felixhayashi/topstoryview
+title: $:/plugins/felixhayashi/tiddlymap
+type: application/json
+version: 0.11.2+8941

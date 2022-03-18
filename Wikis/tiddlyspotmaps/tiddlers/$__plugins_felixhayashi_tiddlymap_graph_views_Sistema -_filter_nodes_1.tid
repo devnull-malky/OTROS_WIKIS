@@ -1,0 +1,6 @@
+created: 20160512013651551
+filter: [all[tiddlers+shadows]] +[limit[100]] [tag[TIDDLYsPOT]] [field:tmap.id[21c54bd8-5b59-42bb-b6b7-8db6026ec440]] [field:tmap.id[b62bc1de-3b86-420d-a591-1ad62c647f38]] [field:tmap.id[3ffaa6e4-97c1-46c4-be5a-58537173e3b4]]
+modified: 20191119061511076
+revision: 0
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Sistema -/filter/nodes
+type: text/vnd.tiddlywiki

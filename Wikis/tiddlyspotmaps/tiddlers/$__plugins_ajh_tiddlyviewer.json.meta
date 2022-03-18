@@ -1,0 +1,12 @@
+core-version: >=5.1.11
+created: 20150814132714911
+dependents: $:/plugins/ajh/tiddlyviewer/icon $:/plugins/ajh/tiddlyviewer/readme $:/plugins/ajh/tiddlyviewer/stylesheet $:/plugins/ajh/tiddlyviewer/template
+description: Tiddly Viewer
+list: readme
+modified: 20191119054451469
+plugin-type: plugin
+revision: 0
+source: https://github.com/Infurnoape/infurnoape.github.io/blob/master/recipes/library/tiddlers/%2524%253A%252Fplugins%252Fajh%252Ftiddlyviewer.json
+title: $:/plugins/ajh/tiddlyviewer
+type: application/json
+version: 0.0.15

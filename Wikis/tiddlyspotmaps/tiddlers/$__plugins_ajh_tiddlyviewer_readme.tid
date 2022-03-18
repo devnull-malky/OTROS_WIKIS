@@ -1,0 +1,16 @@
+created: 20191119054451458
+modified: 20191119054451458
+revision: 0
+title: $:/plugins/ajh/tiddlyviewer/readme
+type: text/vnd.tiddlywiki
+
+This plugin displays external pages fully formatted instead of as just plain text. By adding a ''tiddly'' field and path to an external page, it recognizes to display the page in an object frame.
+
+<mark>@@color:red; ''WARNING'' @@</mark>: Use of Tiddly Viewer to display untrusted web sites could be a security risk.
+
+Simply drag $:/plugins/ajh/tiddlyviewer to the top of your tiddlywiki display, save and reload.
+
+This plugin comprises:
+
+* Template
+* Stylesheet

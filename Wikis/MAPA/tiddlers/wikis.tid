@@ -1,0 +1,41 @@
+created: 20220318054907343
+modified: 20220318055858680
+title: wikis
+tmap.id: 3eca2f92-9a4b-4ed9-a319-78705d46ef82
+
+<$list
+  filter='[[$:/settings/Bob/ListInSidebar]has[folding]get[folding]!prefix[true]limit[1]]'
+  prefix='true'
+  emptyMessage="""<<foldingTree>>"""
+>
+  <$list
+    filter='[list[$:/state/ViewableWikis]]'
+    variable=WikiName
+    emptyMessage='No child wikis listed.'
+  >
+    <li>
+      <a
+        href=<<thisWikiListingMakeURL>>
+        target='_blank'
+      >
+        <$text
+          text=<<WikiName>>
+        />
+      </a>
+      ^^<span style='font-size:8pt;'>
+      (<$button
+        class='tc-btn-invisible'
+      >
+        Unload
+        <$action-websocketmessage
+          $type='unloadWiki'
+          wikiName=<<WikiName>>
+        />
+      </$button>)
+      </span>^^
+    </li>
+  </$list>
+</$list>
+
+
+<<makeWikiListing>>

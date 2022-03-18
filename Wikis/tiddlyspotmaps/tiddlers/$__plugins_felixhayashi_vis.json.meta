@@ -1,0 +1,13 @@
+author: Felix Küppers
+core-version: >=5.0.0
+created: 20160512012921455
+dependents: 
+description: Visjs – TiddlyWiki5 plugin for the vis.js library
+list: readme
+modified: 20191119061511009
+plugin-type: plugin
+revision: 0
+source: https://github.com/felixhayashi/TW5-Vis.js
+title: $:/plugins/felixhayashi/vis
+type: application/json
+version: 4.13.0

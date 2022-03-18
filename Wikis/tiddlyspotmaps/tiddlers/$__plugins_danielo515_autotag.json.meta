@@ -1,0 +1,13 @@
+author: Danielo Rodriguez
+core-version: >=5.1.0
+created: 20160530074631501
+dependents: 
+description: double click to edit tiddlers
+list: readme
+modified: 20191119061511152
+plugin-type: plugin
+revision: 0
+source: https://github.com/danielo515/TW5-AutoTag
+title: $:/plugins/danielo515/autotag
+type: application/json
+version: 0.1.9
