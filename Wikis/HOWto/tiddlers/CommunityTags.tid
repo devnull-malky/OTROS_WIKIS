@@ -1,0 +1,45 @@
+created: 20141222175528807
+min-frequency: 10
+modified: 20151120011507749
+revision: 0
+sort-by: frequency
+tags: TWCSContents TWCSCore
+title: CommunityTags
+type: text/vnd.tiddlywiki
+
+
+\define displayList(myFilter)
+ <$list filter=$myFilter$>
+   <<displayCommunityTag>>
+  </$list>
+\end
+
+
+
+
+//Show tags used at least
+<$select field="min-frequency" default=5>
+  <option>1</option>
+  <option>2</option>
+  <option>3</option>
+  <option>5</option>
+  <option>10</option>
+  <option>20</option>
+</$select>
+ times, sort by 
+<$select field="sort-by" default="frequency">
+  <option>name</option>
+  <option>frequency</option>
+</$select>
+//
+
+''<$count filter="[tag[CommunityTags]greaterthan:community-tag-count{!!min-frequency}]"/> tags'' are used at least {{!!min-frequency}} times.
+
+
+<$list filter="[all[current]field:sort-by[frequency]]">
+  <<displayList "[tag[CommunityTags]greaterthan:community-tag-count{!!min-frequency}!nsort[community-tag-count]]">>
+</$list>
+<$list filter="[all[current]field:sort-by[name]]">
+  <<displayList "[tag[CommunityTags]greaterthan:community-tag-count{!!min-frequency}sort[title]]">>
+</$list>
+

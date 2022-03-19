@@ -40,6 +40,24 @@
     },
     "tiddlyspotmaps": {
       "__path": "tiddlyspotmaps"
+    },
+    "PALETAS_de_COLOR": {
+      "__path": "PALETAS_de_COLOR"
+    },
+    "HOWto": {
+      "__path": "HOWto"
+    },
+    "PLUGINS_HASTA_q_EXPLOTE": {
+      "__path": "PLUGINS_HASTA_q_EXPLOTE"
+    },
+    "TEMAS": {
+      "__path": "TEMAS"
+    },
+    "LINKs": {
+      "__path": "LINKs"
+    },
+    "TiddlyWiki Community Search": {
+      "__path": "TiddlyWiki Community Search"
     }
   },
   "ws-server": {

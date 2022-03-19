@@ -1,0 +1,22 @@
+color: #1cc975
+created: 20150104160233908
+modified: 20151115005828597
+revision: 0
+tags: TWCSContents TWCSCore
+title: CommunityAuthors
+type: text/vnd.tiddlywiki
+
+<ul>
+<$list filter="[tag[CommunityAuthors]has[licence]]" variable="currentAuthor">
+    <li>
+      <$link to=<<currentAuthor>>>
+        <$text text=<<currentAuthor>>/>
+      </$link>
+    </li>
+    <ul>
+      <$list filter="[tag[CommunityWikis]field:author<currentAuthor>]">
+        <li>{{||$:/CommunityWikiShortDescription}}</li>
+      </$list>
+    </ul>
+</$list>
+</ul>

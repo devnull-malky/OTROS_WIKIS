@@ -1,0 +1,38 @@
+created: 20161109155359919
+creator: Riz
+modified: 20161202052627823
+modifier: Riz
+tags: TableOfContents
+title: The Ghostwriter Plugin
+
+''Update Dec 2, 2016'': Pagination will be available at the bottom of the page. Those who want to turn it off can do so from Control Panel > Appearance > Ghostwriter
+
+''Update Nov 16, 2016'': The Ghostwriter tab now has options to specify a'' font size and title size for mobile screens''. Also added is a remove ''button for uninstalling'' the theme. It is recommended to use this button instead of the usual method as this will remove all the state and temporary tiddlers created for ghostwriter.
+
+''Update Nov 11, 2016'': The language image glitch has been corrected and color picker added to Ghostwriter options. Thanks to Sylvain Naudin.
+
+This is the updated version of ghostwriter theme where it is packed to a plugin, so that you can switch using theme-switcher. You can install it by dragging a dropping the following link to your wiki @@color:#EE4056; after creating a backup.@@
+
+<$link tooltip="drag and drop it to your wiki"> $:/plugins/venomspinner/ghostwriter</$link>
+
+After Refreshing, go to ''Control Panel > Appearance > Theme'' to select ghostwriter.
+
+
+New in update:
+
+# User can select the transparency of Pagetoolbar from ''Control Panel > Appearance > Ghostwriter'' tab. Also from the same tab user can select the theme color, show/Hide default site-nav buttons, and a few other options.
+
+# Sidebar now corressponds to ''Control Panel > Appearance > Theme tweaks > Sidebar breakpoint''. ie, below this value (eg:960px) sidebar will switch to mobile behaviour, covering the full screen. 
+
+Thanks to Jan, Josiah and others who encouraged and gave inputs.
+
+Other notes: 
+
+# Sidebar in desktop appears side by side with story river by default. Those who want the sidebar to overlay a page wide story-river (old behaviour) can change the values from Theme tweaks to the following:
+## Sidebar layout : Fixed story, fluid sidebar.
+## Story width:100%
+##Tiddler width:100%
+#  Contents tab in the topbar now defaults to the toc-ghost macro view, which is a slightly modified version of toc-selective expandable macro. The root tag is set to 'TableOfContents'.
+
+
+
